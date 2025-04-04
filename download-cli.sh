@@ -18,3 +18,7 @@ kargo create credentials github-creds \
   --git \
   --username JoshFieldstad \
   --repo-url https://github.com/JoshFieldstad/kargo-helm.git
+
+docker buildx imagetools create \
+  ghcr.io/akuity/guestbook:v0.0.1 \
+  -t ghcr.io/joshfieldstad/guestbook:v0.0.1
