@@ -1,0 +1,9 @@
+{
+    "manifests": [
+      {
+        "annotations": {
+          "org.opencontainers.image.source": "https://github.com/joshfieldstad/kargo-helm.git"
+        }
+      }
+    ]
+  }
