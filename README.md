@@ -40,7 +40,7 @@ This is a GitOps repository of a Kargo Helm example for getting started.
    docker login ghcr.io
 
    docker buildx imagetools create \
-     ghcr.io/JoshFieldstad/guestbook:latest \
+     ghcr.io/akuity/guestbook:latest \
      -t ghcr.io/<yourgithubusername>/guestbook:v0.0.1
    ```
 
@@ -108,7 +108,7 @@ To simulate a release, simply retag an image with a newer semantic version. e.g.
 
 ```shell
 docker buildx imagetools create \
-  ghcr.io/JoshFieldstad/guestbook:latest \
+  ghcr.io/joshfieldstad/guestbook:latest \
   -t ghcr.io/<yourgithubusername>/guestbook:v0.0.2
 ```
 

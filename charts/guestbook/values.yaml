@@ -1,5 +1,5 @@
 image:
-  repository: ghcr.io/JoshFieldstad/guestbook
+  repository: ghcr.io/joshfieldstad/guestbook
   pullPolicy: IfNotPresent
   tag: latest
 

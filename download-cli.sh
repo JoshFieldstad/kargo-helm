@@ -13,12 +13,3 @@ download_url=https://github.com/akuity/kargo/releases/download/${version}/kargo-
 curl -L -o /usr/local/bin/kargo ${download_url}
 chmod +x ${1}
 
-kargo create credentials github-creds \
-  --project kargo-helm \
-  --git \
-  --username JoshFieldstad \
-  --repo-url https://github.com/JoshFieldstad/kargo-helm.git
-
-docker buildx imagetools create \
-  ghcr.io/JoshFieldstad/guestbook:v0.0.1 \
-  -t ghcr.io/joshfieldstad/guestbook:v0.0.1
