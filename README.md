@@ -2,6 +2,7 @@
 
 This is a GitOps repository of a Kargo Helm example for getting started.
 
+
 ### Features:
 
 * A Warehouse which monitors a container repository for new images
