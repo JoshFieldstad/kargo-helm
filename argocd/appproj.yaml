@@ -15,4 +15,5 @@ spec:
   - group: '*'
     kind: '*'
   sourceRepos:
-  - https://github.com/joshfieldstad/kargo-helm
+  - https://github.com/joshfieldstad/kargo-helm.git
+  
