@@ -6,7 +6,7 @@ metadata:
 spec:
   subscriptions:
   - image:
-      repoURL: ghcr.io/akuity/guestbook
+      repoURL: ghcr.io/JoshFieldstad/guestbook
       imageSelectionStrategy: SemVer
 
 ---
